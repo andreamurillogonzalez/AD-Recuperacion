@@ -67,9 +67,9 @@ public class Principal
                     
                     boolean personaEncontrada = buscarPersona(fichero, nombreBuscar, apellidosBuscar);
                     if(personaEncontrada){
-                        System.out.println("Se ha encontrado ha "+ nombreBuscar + " " + apellidosBuscar +" en el fichero");
+                        System.out.println("Se ha encontrado a "+ nombreBuscar + " " + apellidosBuscar +" en el fichero");
                     }else{
-                        System.out.println("No se ha encontrado ha " + nombreBuscar + " " + apellidosBuscar + " en el fichero");
+                        System.out.println("No se ha encontrado a " + nombreBuscar + " " + apellidosBuscar + " en el fichero");
                     }
                     break;
 
@@ -79,7 +79,7 @@ public class Principal
                     List<String> personas = buscarPorNombre(fichero, nombreBuscar2);
                     if (personas.isEmpty())
                     {
-                        System.out.println("No se ha encontrado ha ninguna persona llamada " + nombreBuscar2 + " en el fichero");
+                        System.out.println("No se ha encontrado a ninguna persona llamada " + nombreBuscar2 + " en el fichero");
                     } else
                     {
                         System.out.println("Personas encontradas con ese nombre: ");
@@ -91,7 +91,13 @@ public class Principal
                     break;
                     
                 case 4:
-                    
+                    System.out.println("Introduce las iniciales del apellido: ");
+                    String iniciales = teclado.nextLine();
+                    List<String> personasApellidos = apellidosComienzanPor(fichero, iniciales);
+                    System.out.println("Personas cuyo apellido comienza por '" + iniciales + "': ");
+                    for(String s: personasApellidos){
+                        System.out.println(s);
+                    }
                     break;
                 case 5:
                     System.out.println("Introduce el nombre: ");
@@ -192,8 +198,31 @@ public class Principal
         return personas;
     }
     
-    public static void apellidosComienzanPor(File fichero, String iniciales){
-       
+    public static List<String> apellidosComienzanPor(File fichero, String iniciales){
+        List<String> personas = new ArrayList();
+        try
+        {
+            BufferedReader lector;
+            lector = new BufferedReader(new FileReader(fichero));
+            String linea;
+            while ((linea = lector.readLine()) != null)
+            {
+                int posicionComa = linea.indexOf(",");
+                String apellido = linea.substring(0, posicionComa);
+                if(apellido.startsWith(iniciales))
+                {
+                    personas.add(linea);
+                }
+            }
+            lector.close();
+        } catch (FileNotFoundException ex)
+        {
+            System.out.println(ex.toString());
+        } catch (IOException ex)
+        {
+            System.out.println(ex.toString());
+        }
+        return personas;
     }
     
     public static boolean eliminarPersona(File fichero, String nombre, String apellidos){
