@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<futbolistas>
+    <futbolista equipo="RAC">
+        <num>295</num>
+        <alias>Pardo          </alias>
+        <posicion>2</posicion>
+        <altura>1.78</altura>
+    </futbolista>
+    <futbolista equipo="RAC">
+        <num>296</num>
+        <alias>Borja Ares     </alias>
+        <posicion>2</posicion>
+        <altura>1.77</altura>
+    </futbolista>
+    <futbolista equipo="RAC">
+        <num>299</num>
+        <alias>Faouzi         </alias>
+        <posicion>3</posicion>
+        <altura>1.75</altura>
+    </futbolista>
+    <futbolista equipo="RIB">
+        <num>368</num>
+        <alias>Pablo Quintanil</alias>
+        <posicion>2</posicion>
+        <altura>1.83</altura>
+    </futbolista>
+    <futbolista equipo="RIB">
+        <num>369</num>
+        <alias>Casta          </alias>
+        <posicion>2</posicion>
+        <altura>1.78</altura>
+    </futbolista>
+    <futbolista equipo="RIB">
+        <num>370</num>
+        <alias>Ruben Salamanca</alias>
+        <posicion>2</posicion>
+        <altura>1.84</altura>
+    </futbolista>
+    <futbolista equipo="RIB">
+        <num>373</num>
+        <alias>Pabluco        </alias>
+        <posicion>3</posicion>
+        <altura>1.73</altura>
+    </futbolista>
+    <futbolista equipo="RIB">
+        <num>375</num>
+        <alias>Colina         </alias>
+        <posicion>3</posicion>
+        <altura>1.68</altura>
+    </futbolista>
+    <futbolista equipo="RIB">
+        <num>376</num>
+        <alias>Cristian       </alias>
+        <posicion>3</posicion>
+        <altura>1.76</altura>
+    </futbolista>
+    <futbolista equipo="RIB">
+        <num>377</num>
+        <alias>Ruben Quintanil</alias>
+        <posicion>3</posicion>
+        <altura>1.81</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>232</num>
+        <alias>Ruben          </alias>
+        <posicion>1</posicion>
+        <altura>1.86</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>233</num>
+        <alias>Ivan Gonzalez  </alias>
+        <posicion>1</posicion>
+        <altura>1.85</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>234</num>
+        <alias>Alex Diaz      </alias>
+        <posicion>2</posicion>
+        <altura>1.85</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>235</num>
+        <alias>Bustillo       </alias>
+        <posicion>2</posicion>
+        <altura>1.74</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>238</num>
+        <alias>Rafa           </alias>
+        <posicion>2</posicion>
+        <altura>1.79</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>239</num>
+        <alias>Mario          </alias>
+        <posicion>2</posicion>
+        <altura>1.9</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>240</num>
+        <alias>Luis Gonzalez  </alias>
+        <posicion>3</posicion>
+        <altura>1.7</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>241</num>
+        <alias>Zarandona      </alias>
+        <posicion>3</posicion>
+        <altura>1.75</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>242</num>
+        <alias>Fresno         </alias>
+        <posicion>3</posicion>
+        <altura>1.77</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>243</num>
+        <alias>Luis Gomez     </alias>
+        <posicion>3</posicion>
+        <altura>1.69</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>244</num>
+        <alias>Chamorro       </alias>
+        <posicion>3</posicion>
+        <altura>1.76</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>245</num>
+        <alias>Victor         </alias>
+        <posicion>3</posicion>
+        <altura>1.78</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>246</num>
+        <alias>Riky           </alias>
+        <posicion>3</posicion>
+        <altura>1.8</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>247</num>
+        <alias>Andrei         </alias>
+        <posicion>3</posicion>
+        <altura>1.72</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>248</num>
+        <alias>Miki           </alias>
+        <posicion>3</posicion>
+        <altura>1.84</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>249</num>
+        <alias>Jorge Rodriguez</alias>
+        <posicion>3</posicion>
+        <altura>1.82</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>250</num>
+        <alias>Christopher    </alias>
+        <posicion>3</posicion>
+        <altura>1.78</altura>
+    </futbolista>
+    <futbolista equipo="TRO">
+        <num>298</num>
+        <alias>Adrian Zorrilla</alias>
+        <posicion>2</posicion>
+        <altura>1.75</altura>
+    </futbolista>
+</futbolistas>
